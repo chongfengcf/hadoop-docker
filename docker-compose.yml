@@ -1,0 +1,27 @@
+version: "3"
+
+services:
+  hadoop01:
+    image: "chongfengcf/hadoop-docker"
+    hostname: hadoop01
+    container_name: hadoop01
+    stdin_open: true # -i interactive
+    tty: true # -t tty
+    ports:
+      - "9870:9870"
+      - "8088:8088"
+      - "19888:19888"
+
+  hadoop02:
+    image: "chongfengcf/hadoop-docker"
+    hostname: hadoop02
+    container_name: hadoop02
+    stdin_open: true # -i interactive
+    tty: true # -t tty
+
+  hadoop03:
+    image: "chongfengcf/hadoop-docker"
+    hostname: hadoop03
+    container_name: hadoop03
+    stdin_open: true # -i interactive
+    tty: true # -t tty
