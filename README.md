@@ -12,8 +12,8 @@
 1. 下载并安装docker
 2. 下载本项目到本地
 > git clone https://github.com/chongfengcf/hadoop-docker.git
-3. 进入项目文件夹
-> cd hadoop-docker
+3. 进入项目文件夹
+> cd hadoop-docker
 4. 自动拉取并创建镜像
 > docker-compose up -d
 
@@ -21,8 +21,8 @@
 1. 下载并安装docker
 2. 下载本项目到本地
 > git clone https://github.com/chongfengcf/hadoop-docker.git
-3. 进入项目文件夹
-> cd hadoop-docker
+3. 进入项目文件夹
+> cd hadoop-docker
 4. 开始编译镜像
 > docker build --rm -t chongfengcf/hadoop-docker .
 5. 依照镜像创建三个容器
